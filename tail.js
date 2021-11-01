@@ -5,4 +5,3 @@ const tail = function(words) {
 };
 
 module.exports = tail;
-

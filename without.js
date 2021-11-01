@@ -33,3 +33,5 @@ without(words, ["lighthouse"]); // no need to capture return value for this test
 assertArraysEqual(words, ["hello", "world", "lighthouse"]);
 
 assertArraysEqual(without([1, 2, 3], [1]),[2,3]);
+
+module.exports = without;

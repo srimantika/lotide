@@ -25,3 +25,5 @@ result = (findKey({
 
 console.log(assertEqual(result, 'noma'));
 console.log(assertEqual(result, 'Ora'));
+
+module.exports = findKey;
